@@ -1,82 +1,113 @@
-<h2 align="center">
-  Decoder – Personal Portfolio Website<br/>
-  <a href="https://main-portfolio-tuberameshs-projects.vercel.app" target="_blank">decoder.vercel.app</a>
-</h2>
+<h1 align="center">Decoder — Personal Portfolio Website</h1>
 
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
+<p align="center">
+  A clean, responsive personal portfolio built with React to showcase my skills, projects, and journey.
+</p>
 
-<br/>
+<p align="center">
+  🔗 Live Website:
+  <a href="https://main-portfolio-tuberameshs-projects.vercel.app" target="_blank">
+    main-portfolio-tuberameshs-projects.vercel.app
+  </a>
+</p>
 
-<center>
-
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/YOUR_GITHUB_USERNAME/portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/YOUR_GITHUB_USERNAME/portfolio?color=red&logo=github&style=for-the-badge)
-
-</center>
-
-<h3 align="center">
-    🔹
-    <a href="https://github.com/Tuberamesh/mainPortfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/Tuberamesh/mainPortfolio/issues">Request Feature</a>
-</h3>
+<p align="center">
+  <img src="https://img.shields.io/github/stars/Tuberamesh/mainPortfolio?style=for-the-badge" />
+  <img src="https://img.shields.io/github/forks/Tuberamesh/mainPortfolio?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues/Tuberamesh/mainPortfolio?style=for-the-badge" />
+</p>
 
 ---
 
-## TL;DR
+## 🚀 About
 
-This is my **personal portfolio website** built to showcase my projects, skills, resume, and contact details.
+**Decoder** is my personal portfolio website designed to present my projects, skills, resume, and contact details in a clean and professional way.
 
-You are free to **fork and customize** this project for learning purposes.  
-If you do, please give proper credit by linking back to this repository. ⭐
+This project focuses on:
+- Simplicity
+- Performance
+- Responsive design
+- Real-world presentation
 
 ---
 
-## 🚀 Built With
-
-My personal portfolio website  
-👉 <a href="https://main-portfolio-tuberameshs-projects.vercel.app" target="_blank">decoder.vercel.app</a>
-
-This project was built using the following technologies:
+## 🛠 Tech Stack
 
 - React.js
 - JavaScript (ES6+)
 - React-Bootstrap
 - CSS3
 - Node.js
-- VS Code
-- Vercel (Deployment)
+- Git & GitHub
+- Vercel
 
 ---
 
 ## ✨ Features
 
-📖 **Multi-page layout** (Home, About, Projects, Resume, Contact)  
-
-🎨 **Clean & modern UI** with React-Bootstrap  
-
-📱 **Fully responsive** on all devices  
-
-⚡ **Fast performance** using Vercel hosting  
-
-📩 **Contact form integration** (Formspree)
+- Multi-page layout (Home, About, Projects, Resume, Contact)
+- Fully responsive design
+- Clean UI with React-Bootstrap
+- Fast deployment using Vercel
+- Easy to customize
 
 ---
 
-## 🧑‍💻 Getting Started
+## 📸 Preview
 
-Clone this repository.  
-Make sure you have **Node.js** and **Git** installed on your system.
+<img width="1440" height="900" alt="Screenshot 2026-01-28 at 2 32 00 PM" src="https://github.com/user-attachments/assets/debbb746-9093-4d39-9367-89be20cb7449" />
+<img width="1440" height="900" alt="Screenshot 2026-01-28 at 2 32 12 PM" src="https://github.com/user-attachments/assets/a38fa8c7-670f-4b70-8461-fc4c21308b2e" />
+
+<img width="1440" height="900" alt="Screenshot 2026-01-28 at 2 32 21 PM" src="https://github.com/user-attachments/assets/140bb767-ef6a-48a3-ba08-d7a80d1fa125" />
 
 ---
 
-## 🛠 Installation & Setup
+## ⚙️ Setup, Run & Deploy (All Commands)
 
-1. Install dependencies:
 ```bash
+# Clone the repository
+git clone https://github.com/Tuberamesh/mainPortfolio.git
+
+# Move into project folder
+cd mainPortfolio
+
+# Install dependencies
 npm install
+
+# Run locally
+npm start
+
+# Build for production
+npm run build
+
+# Deploy to Vercel
+npx vercel --prod
+```
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork this repository and customize it for learning or personal use.
+
+If you use this project, please give credit by linking back to this repository ⭐
+
+---
+
+## 🐞 Issues
+
+Report bugs or request features here:
+https://github.com/Tuberamesh/mainPortfolio/issues
+
+---
+
+## 📄 License
+
+This project is open-source and intended for educational and personal use.
+
+---
+
+## 🙋‍♂️ Author
+
+**Ramesha G**  
+GitHub: https://github.com/Tuberamesh
