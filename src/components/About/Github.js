@@ -32,8 +32,8 @@ function Github() {
           >
             <GitHubCalendar
               username="Tuberamesh"
-              blockSize={9}
-              blockMargin={1.8}
+              blockSize={7.7}
+              blockMargin={1.6}
               color="#c084f5"
               fontSize={11}
             />
