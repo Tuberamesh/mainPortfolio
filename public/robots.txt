@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://main-portfolio-tuberameshs-projects.vercel.app/sitemap.xml
+Sitemap: https://main-portfolio-tuberameshs-projects.vercel.app/sitemap.xml/
+
 
