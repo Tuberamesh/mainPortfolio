@@ -8,6 +8,16 @@
       "src": "/robots.txt",
       "dest": "/robots.txt"
     }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        }
+      ]
+    }
   ]
 }
-
