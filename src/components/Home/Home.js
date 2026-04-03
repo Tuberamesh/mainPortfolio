@@ -15,7 +15,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Home() {
   return (
-    <section>
+    <section style={{ overflowX: "hidden", width: "100%" }}>
       {/* Full width home section */}
       <Container fluid className="home-section" id="home" style={{ overflowX: "hidden" }}>
         <Particle />

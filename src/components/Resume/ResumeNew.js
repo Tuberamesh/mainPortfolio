@@ -5,10 +5,10 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 function ResumeNew() {
   // Original Google Drive link
-  const resumeLink = "https://drive.google.com/file/d/1Nu-CPaS3rUiA8s5nmc0NiOTWTipLq-OO/view?usp=drivesdk";
+  const resumeLink = "https://drive.google.com/file/d/1dsIRQ-_CA-EJXeaNhJ_CW-9sF5nPdfpK/view?usp=drivesdk";
 
   // Convert to embed link for iframe preview
-  const embedLink = "https://drive.google.com/file/d/1Nu-CPaS3rUiA8s5nmc0NiOTWTipLq-OO/preview";
+  const embedLink = "https://drive.google.com/file/d/1dsIRQ-_CA-EJXeaNhJ_CW-9sF5nPdfpK/preview";
 
   return (
     <Container

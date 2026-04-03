@@ -9,21 +9,30 @@ function ProjectCard({ imgPath, isBlog, title, description, ghLink, demoLink }) 
     <Card className="project-card-view" style={{ marginBottom: "20px" }}>
       <Card.Img variant="top" src={imgPath} alt="project-img" />
       <Card.Body>
-        <Card.Title>{title}</Card.Title>
+        <Card.Title><strong>{title}</strong></Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {description}
         </Card.Text>
 
-        {/* GitHub Button */}
         {ghLink && (
-          <Button variant="primary" href={ghLink} target="_blank" style={{ marginRight: "10px" }}>
+          <Button
+            variant="primary"
+            href={ghLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ marginRight: "10px" }}
+          >
             <BsGithub /> &nbsp;GitHub
           </Button>
         )}
 
-        {/* Demo Button */}
         {!isBlog && demoLink && (
-          <Button variant="success" href={demoLink} target="_blank">
+          <Button
+            variant="success"
+            href={demoLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <CgWebsite /> &nbsp;Demo
           </Button>
         )}

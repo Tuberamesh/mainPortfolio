@@ -5,9 +5,9 @@ import Tilt from "react-parallax-tilt";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="home-about-section" id="about" style={{ overflowX: "hidden", paddingLeft: 0, paddingRight: 0 }}>
       <Container>
-        <Row>
+        <Row style={{ margin: 0 }}>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple">INTRODUCE</span> MYSELF
