@@ -1,6 +1,6 @@
 import React from "react";
-import {GitHubCalendar} from "react-github-calendar";
 import { Row, Col } from "react-bootstrap";
+import { GitHubCalendar } from "react-github-calendar";
 
 function Github() {
   return (
@@ -24,7 +24,10 @@ function Github() {
             alignItems: "center",
             width: "100%",
             overflowX: "auto",
+            paddingLeft: "15px",
+            paddingRight: "15px",
             paddingBottom: "10px",
+            boxSizing: "border-box",
           }}
         >
           <GitHubCalendar
