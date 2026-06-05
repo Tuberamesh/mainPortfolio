@@ -17,6 +17,17 @@ function Projects() {
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+          {/* NEW PROJECT — Added June 2026 */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={process.env.PUBLIC_URL + "/influencer_roi.jpeg"}
+              title="Influencer Marketing ROI Dashboard"
+              description="A business intelligence dashboard that transforms influencer campaign data into actionable decisions. Covers platform benchmarking, ROI tracking, engagement heatmaps, and dynamic KPI storytelling — built with HTML, CSS, JavaScript, and Chart.js."
+              ghLink="https://github.com/Tuberamesh/Influencer-Marketing-ROI"
+              demoLink="https://tuberamesh.github.io/Influencer-Marketing-ROI-/dashboard.html"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={process.env.PUBLIC_URL + "/ipl_thumb.png"}
